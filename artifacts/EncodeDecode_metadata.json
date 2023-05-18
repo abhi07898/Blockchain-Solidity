@@ -1,0 +1,104 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
+					}
+				],
+				"name": "decode",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_str1",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_int",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_str2",
+						"type": "string"
+					}
+				],
+				"name": "encode",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"AbiEncodeAndeDecode.sol": "EncodeDecode"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 301
+		},
+		"remappings": []
+	},
+	"sources": {
+		"AbiEncodeAndeDecode.sol": {
+			"keccak256": "0xa7e5f44596dc0d22491fd1d48c1e3a94d2a6d0ba774b2cf66ef5d328951155ce",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://60a1f9f0a4b9eedcf29d5c467771bd74dd4887110917f3776ba1faa9ae9b725b",
+				"dweb:/ipfs/QmTJbVtLQS3N8dXb9isF7t7sgq5JsFRR5fgmHAEVBn698L"
+			]
+		}
+	},
+	"version": 1
+}

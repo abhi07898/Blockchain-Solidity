@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBookId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"3_structure.sol": "structure"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"3_structure.sol": {
+			"keccak256": "0xbccf7953ce22731e70846130d5c3dc21e1dba98e6caa35a97c4984a7fde9a4e3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b8b1b75672594f129dc42a11db7449041cad2cbcb62276109465fdb347201ed8",
+				"dweb:/ipfs/QmfTetg59wapMxijGbvxbnDF55kKSBemWcp4YxSWDu5fZx"
+			]
+		}
+	},
+	"version": 1
+}
